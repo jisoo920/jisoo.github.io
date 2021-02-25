@@ -3,7 +3,7 @@ highlighter:      rouge
 
 # Setup
 title:            Mining every little thing
-tagline:          'Mining every little thing'
+tagline:          ''
 description:      'AI, Machine Learning, Data Analytics'
 url:             ""
 baseurl:         "https://jisoo920.github.io/"
