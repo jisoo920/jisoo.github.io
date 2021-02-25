@@ -1,5 +1,5 @@
 # Dependencies
-highlighter:      pygments
+highlighter:      rouge
 
 # Setup
 title:            JS
@@ -9,8 +9,8 @@ url:             ""
 baseurl:         "https://jisoo920.github.io/"
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Ji-Soo Kang'
+  url:            dm.jskang@kyonggi.ac.kr
 
 paginate:         5
 
