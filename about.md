@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is all about me. Feel free to contact(dm.jskang@kyonggi.ac.kr) to me! 
+  Hey there! This page is all about me. Feel free to [contact to me](dm.jskang@kyonggi.ac.kr)! 
 </p>
 
 JS Kang, resercher with Data Mining LAB., Kyonggi University.
@@ -17,6 +17,4 @@ Interested in
 * AI
 * Machine Learning
 * Data Analytics
-
-There are currently two themes built on Poole
 
