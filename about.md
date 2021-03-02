@@ -7,11 +7,11 @@ title: About Me
   Hey there! This page is all about me. <br> Feel free to contact to me! 
 </p>
 
-JS Kang, resercher with Data Mining LAB., Kyonggi University.
+JS Kang, a researcher with Data Mining LAB., Kyonggi University.
 dm.jskang@kyonggi.ac.kr
 
-* she is currently pursuing the master’s degree with the Department of Computer Science.
-* She received the B.S. degree from the Division of Computer Science and Engineering, Kyonggi University
+* She is currently pursuing the master’s degree from the Department of Computer Science.
+* She received the B.S. degree from the Division of Computer Science and Engineering, Kyonggi University in 2020.
 
 Interested in 
 * Data Mining
