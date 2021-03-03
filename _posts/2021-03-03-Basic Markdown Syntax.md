@@ -36,13 +36,13 @@ BlockQuote는 인용 블록입니다. >가 반복될수록 들여쓰기 됩니�
 
 ```markdown
 > BlockQuote
-> - 다른 마크다운 요소 삽입 가능
+> - 다른 **마크다운 요소** 삽입 가능
 > > BlockQuote
 
 ```
 
 > BlockQuote
-> - 다른 마크다운 요소 삽입 가능
+> - 다른 **마크다운 요소** 삽입 가능
 > > BlockQuote
 
 <br>
@@ -77,6 +77,8 @@ iris = load_iris()
 X = iris.data[:, 2:] # 꽃잎 길이와 너비
 y = iris.target
 
+tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
+tree_clf.fit(X, y)```
 ```
 
 ```
@@ -89,6 +91,9 @@ from sklearn.tree import DecisionTreeClassifier
 iris = load_iris()
 X = iris.data[:, 2:] # 꽃잎 길이와 너비
 y = iris.target
+
+tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
+tree_clf.fit(X, y)
 
 ```
 
