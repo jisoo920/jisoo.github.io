@@ -68,24 +68,32 @@ BlockQuote는 인용 블록입니다. >가 반복될수록 들여쓰기 됩니�
 
 
 ```markdown
-```java
-public class BootSpringBootApplication {
-  public static void main(String[] args) {
-    System.out.println("Hello, Honeymon");
-  }
-}
+```python
+from sklearn.datasets import load_iris
+from sklearn.tree import DecisionTreeClassifier
 
-```
-```
+iris = load_iris()
+X = iris.data[:, 2:] # 꽃잎 길이와 너비
+y = iris.target
+
+tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
+tree_clf.fit(X, y)
+
+``` ```
 
 
-```
-java
-public class BootSpringBootApplication {
-  public static void main(String[] args) {
-    System.out.println("Hello, Honeymon");
-  }
-}
+``` python
+from sklearn.datasets import load_iris
+from sklearn.tree import DecisionTreeClassifier
+
+iris = load_iris()
+X = iris.data[:, 2:] # 꽃잎 길이와 너비
+y = iris.target
+
+tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
+tree_clf.fit(X, y)
+
+
 ```
 
 <br><hr>
