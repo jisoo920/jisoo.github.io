@@ -36,14 +36,18 @@ BlockQuote는 인용 블록입니다. >가 반복될수록 들여쓰기 됩니�
 
 ```markdown
 > BlockQuote
->         > BlockQuote
->	        >	        > BlockQuote
+> ** asterisks를 사용하여 bold text 표현 **
+> > BlockQuote
+> - 다른 마크다운 요소 삽입 가능
+>	>	> BlockQuote
 
 ```
 
-> BlockQuote   
->         > BlockQuote   
->	        >	        > BlockQuote   
+> BlockQuote
+> ** asterisks를 사용하여 bold text 표현 **
+> > BlockQuote
+> - 다른 마크다운 요소 삽입 가능
+>	>	> BlockQuote
 
 <br>
 ### Link 사용법
@@ -52,7 +56,7 @@ BlockQuote는 인용 블록입니다. >가 반복될수록 들여쓰기 됩니�
 
 
 ```markdown
-[Google](https://google.com, "google link") // 'Google' 클릭시 이동, 원 링크 보이지 않음
+[Google](https://google.com, "google link") // 'Google' 클릭시 이동
 <https://google.com> // 링크가 보임
 <dm.jskang@kyonggi.ac.kr> // 이메일
 ```
@@ -68,6 +72,7 @@ BlockQuote는 인용 블록입니다. >가 반복될수록 들여쓰기 됩니�
 
 
 ```markdown
+
 ```python
 from sklearn.datasets import load_iris
 from sklearn.tree import DecisionTreeClassifier
@@ -78,8 +83,9 @@ y = iris.target
 
 tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
 tree_clf.fit(X, y)
+```
 
-``` ```
+```
 
 
 ``` python
@@ -92,11 +98,10 @@ y = iris.target
 
 tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
 tree_clf.fit(X, y)
-
-
 ```
 
-<br><hr>
+<br><hr/>
 더 자세한 내용은 아래의 markdown 사용법을 확인하세요.<br>
+[Basic Syntax](https://www.markdownguide.org/basic-syntax/)<br>
 [마크다운(Markdown) 사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601)<br>
 [Creating and highlighting code blocks](https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks#syntax-highlighting)<br>
