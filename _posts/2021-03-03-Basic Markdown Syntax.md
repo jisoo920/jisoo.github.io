@@ -5,12 +5,12 @@ title: Basic Markdown Syntax
 
 >자주 사용하는 Markdown 문법 모음
 
-Github 블로그를 꾸며 나가면서 필요한 기본적인 Markdown 문법들을 정리해 보았습니다. Markdown 문서를 사용하면서 느낀 점은 기본적으로 html 문법에 대한 이해가 있다면 배우기 어렵지 않다는 점입니다. 하지지만 그보다 가독성이 뛰어나고, 문법과 구조가 간단하여 쓰기 쉬운 특징을 갖습니다.
+Github 블로그를 꾸며 나가면서 필요한 기본적인 Markdown 문법들을 정리해 보았습니다. Markdown 문서를 사용하면서 느낀 점은 기본적으로 html 문법에 대한 이해가 있다면 배우기 어렵지 않다는 점입니다. 하지만 그보다 가독성이 뛰어나고, 문법과 구조가 간단하여 쓰기 쉬운 특징을 갖습니다.
 
 
 ### 해더 Header 사용법
 <hr/>
-해더는 제목(글머리)입니다. H1일수록 크고 H6일수록 작아요. #의 개수와 동일하으로 쉽게 사용하실 수 있습니다.
+해더는 제목(글머리)입니다. H1일수록 크고 H6일수록 작아요. #의 개수와 동일하므로 쉽게 사용하실 수 있습니다.
 
 ```markdown
 # H1 Header
@@ -36,18 +36,14 @@ BlockQuote는 인용 블록입니다. >가 반복될수록 들여쓰기 됩니�
 
 ```markdown
 > BlockQuote
-> ** asterisks를 사용하여 bold text 표현 **
-> > BlockQuote
 > - 다른 마크다운 요소 삽입 가능
->	>	> BlockQuote
+> > BlockQuote
 
 ```
 
 > BlockQuote
-> ** asterisks를 사용하여 bold text 표현 **
-> > BlockQuote
 > - 다른 마크다운 요소 삽입 가능
->	>	> BlockQuote
+> > BlockQuote
 
 <br>
 ### Link 사용법
@@ -81,8 +77,6 @@ iris = load_iris()
 X = iris.data[:, 2:] # 꽃잎 길이와 너비
 y = iris.target
 
-tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
-tree_clf.fit(X, y)
 ```
 
 ```
@@ -96,11 +90,10 @@ iris = load_iris()
 X = iris.data[:, 2:] # 꽃잎 길이와 너비
 y = iris.target
 
-tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
-tree_clf.fit(X, y)
 ```
 
-<br><hr/>
+<br>
+<hr/>
 더 자세한 내용은 아래의 markdown 사용법을 확인하세요.<br>
 [Basic Syntax](https://www.markdownguide.org/basic-syntax/)<br>
 [마크다운(Markdown) 사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601)<br>
