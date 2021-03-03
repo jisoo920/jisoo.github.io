@@ -5,7 +5,7 @@ title: Basic Markdown Syntax
 
 >자주 사용하는 Markdown 문법 모음
 
-Github 블로그를 꾸며 나가면서 필요한 기본적인 Markdown 문법들을 정리해 보았습니다. Markdown 문서를 사용하면서 느낀 점은 기본적으로 html 문법에 대한 이해가 있다면 배우기 어렵지 않다는 점입니다. 가독성이 뛰어나고, 문법과 구조가 간단하여 쓰기 쉬운 특징을 갖습니다.
+Github 블로그를 꾸며 나가면서 필요한 기본적인 Markdown 문법들을 정리해 보았습니다. Markdown 문서를 사용하면서 느낀 점은 기본적으로 html 문법에 대한 이해가 있다면 배우기 어렵지 않다는 점입니다. 하지지만 그보다 가독성이 뛰어나고, 문법과 구조가 간단하여 쓰기 쉬운 특징을 갖습니다.
 
 
 ### 해더 Header 사용법
@@ -20,6 +20,7 @@ Github 블로그를 꾸며 나가면서 필요한 기본적인 Markdown 문법�
 ##### H5 Header
 ###### H6 Header
 ```
+
 # H1 Header
 ## H2 Header
 ### H3 Header
@@ -35,14 +36,14 @@ BlockQuote는 인용 블록입니다. >가 반복될수록 들여쓰기 됩니�
 
 ```markdown
 > BlockQuote
->	  > BlockQuote
->	  >	  > BlockQuote
+>         > BlockQuote
+>	        >	        > BlockQuote
 
 ```
 
-> BlockQuote
->	  > BlockQuote
->	  >	  > BlockQuote
+> BlockQuote   
+>         > BlockQuote   
+>	        >	        > BlockQuote   
 
 <br>
 ### Link 사용법
@@ -51,7 +52,7 @@ BlockQuote는 인용 블록입니다. >가 반복될수록 들여쓰기 됩니�
 
 
 ```markdown
-[Google](https://google.com, "google link") // 'Google' 클릭시 이동
+[Google](https://google.com, "google link") // 'Google' 클릭시 이동, 원 링크 보이지 않음
 <https://google.com> // 링크가 보임
 <dm.jskang@kyonggi.ac.kr> // 이메일
 ```
@@ -73,10 +74,13 @@ public class BootSpringBootApplication {
     System.out.println("Hello, Honeymon");
   }
 }
+
 ```
 ```
 
-```java
+
+```
+java
 public class BootSpringBootApplication {
   public static void main(String[] args) {
     System.out.println("Hello, Honeymon");
@@ -84,7 +88,7 @@ public class BootSpringBootApplication {
 }
 ```
 
-<br>
+<br><hr>
 더 자세한 내용은 아래의 markdown 사용법을 확인하세요.<br>
 [마크다운(Markdown) 사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601)<br>
 [Creating and highlighting code blocks](https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks#syntax-highlighting)<br>
