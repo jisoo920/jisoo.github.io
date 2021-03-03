@@ -69,37 +69,24 @@ BlockQuote는 인용 블록입니다. >가 반복될수록 들여쓰기 됩니�
 
 ```markdown
 
-```python
-from sklearn.datasets import load_iris
-from sklearn.tree import DecisionTreeClassifier
+~~~python
+def markdownColdBlock():
+  print("This is Code Block")
 
-iris = load_iris()
-X = iris.data[:, 2:] # 꽃잎 길이와 너비
-y = iris.target
-
-tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
-tree_clf.fit(X, y)```
-```
+  return true
+~~~
 
 ```
 
+~~~python
+def markdownColdBlock():
+  print("This is Code Block")
 
-``` python
-from sklearn.datasets import load_iris
-from sklearn.tree import DecisionTreeClassifier
-
-iris = load_iris()
-X = iris.data[:, 2:] # 꽃잎 길이와 너비
-y = iris.target
-
-tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
-tree_clf.fit(X, y)
-
-```
+  return true
+~~~
 
 <br>
 <hr/>
-더 자세한 내용은 아래의 markdown 사용법을 확인하세요.<br>
+더 자세한 내용은 아래의 markdown 문서를 확인하세요.<br>
 [Basic Syntax](https://www.markdownguide.org/basic-syntax/)<br>
-[마크다운(Markdown) 사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601)<br>
 [Creating and highlighting code blocks](https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks#syntax-highlighting)<br>
